@@ -1,91 +1,95 @@
 <resources>
-    <string name="see_connections">See connections</string>
+    <string name="see_connections">Voir connexion</string>
     <string name="stop">Stop</string>
-    <string name="permission_location_rationale">Please allow Location Permissions - Google requires this for your phone to scan for another phone’s Bluetooth. We do not use or store your location.</string>
-    <string name="permission_write_rationale">OpenTrace needs save files for logs (Debug builds only)</string>
-    <string name="ble_not_supported">This device does not support BLE</string>
+    <string name="app_name">XexCOVID19</string>
+    <string name="permission_location_rationale">Activez votre Position - Google en a besoin pour que votre téléphone recherche le Bluetooth dun autre téléphone. Nous ne stockons pas votre emplacement.</string>
+    <string name="permission_write_rationale"> XexCOVID19 a besoin de fichiers de sauvegarde pour les Logs</string>
+    <string name="ble_not_supported">Cet appareil ne prend pas en charge BLE</string>
 
-    <string name="tv_onboarding_title">Help stop the spread of COVID-19 by turning Bluetooth on</string>
-    <string name="tv_onboarding_desc">If you had close contact with a COVID-19 case, we help the health authorities call you more quickly, to provide guidance and care.</string>
-    <string name="tv_onboarding_desc_sub">To protect those around you, OTC may also ask you to share your data.</string>
-    <string name="i_want_to_help">I want to help</string>
+    <string name="tv_onboarding_title">Aidez à stopper le COVID-19 en activant votre Bluetooth</string>
+    <string name="tv_onboarding_desc">Si vous avez été en contact avec un cas de COVID-19, nous aidons les autorités sanitaires à vous appeler plus rapidement pour vous soigner.</string>
 
-    <string name="tv_howitworks_title">How OpenTrace works</string>
-    <string name="tv_howitworks_explanation_1">We use Bluetooth signals to determine if you are near another OpenTrace user.</string>
-    <string name="tv_howitworks_explanation_2">This proximity data is encrypted and stored only on your phone.</string>
-    <string name="tv_howitworks_explanation_3">OTC will seek your consent to upload the data, if it\'s needed for contact tracing.</string>
-    <string name="mobile_number">Mobile number</string>
-    <string name="register_number">Register your mobile number</string>
-    <string name="register_number_details">We\'ll contact you if you had close contact with a COVID-19 case.</string>
-    <string name="register_number_family">Setting up for your family? \nUse their number instead of yours.</string>
+    <string name="tv_onboarding_desc_sub">Pour protéger votre entourage, Les autorités sanitaires peuvent vous demander de partager vos données.</string>
+    <string name="i_want_to_help">je veux aider</string>
+
+    <string name="tv_howitworks_title">comment XexCOVID19 fonctionne</string>
+    <string name="tv_howitworks_explanation_1">Nous utilisons des signaux Bluetooth pour déterminer si vous êtes près d un autre utilisateur XexCOVID19.</string>
+    <string name="tv_howitworks_explanation_2">Ces données sont cryptées et stockées uniquement sur votre téléphone.</string>
+    <string name="tv_howitworks_explanation_3">les autorités demanderont votre consentement pour télécharger les données, si cela est nécessaire.</string>
+    <string name="mobile_number">Numéro de téléphone</string>
+    <string name="register_number">Enregistrez votre numéro</string>
+    <string name="register_number_details">Nous vous contacterons si vous avez été en contact étroit avec un cas COVID-19.</string>
+    <string name="register_number_family">Vous installez XexCOVID19 pour votre famille? \n Utilisez leur numéro au lieu du vôtre.</string>
     <string name="invalid_length">Needs to be 8-digits</string>
-    <string name="invalid_number">Invalid Mobile Number</string>
+    <string name="invalid_number">Numéro incorrect</string>
 
-    <string name="enter_otp">Enter your OTP</string>
+    <string name="enter_otp">Entrer votre OTP</string>
     <string name="otp_sent">A 6-digit code has been sent to %s.</string>
-    <string name="resend_code"><u>Resend Code</u></string>
+    <string name="resend_code"><u>Renvoyer le Code</u></string>
 
     <string name="setup_app_permission">\Set up app permissions</string>
     <string name="setup_app_permission_title">Select \'<b>Yes</b>\' or \'<b>Allow</b>\' for the next few screens to set up.</string>
     <string name="bluetooth">1. Bluetooth</string>
-    <string name="location_permissions">2. Location Permissions</string>
-    <string name="battery_optimiser_opt">3. Battery Optimiser</string>
+    <string name="location_permissions">2. Position</string>
+    <string name="battery_optimiser_opt">3. Optimisation de la batterie</string>
     <string name="notes">Android needs Location Permissions for Bluetooth to work. We don\'t have access to your physical location.</string>
-    <string name="proceed">Proceed</string>
+    <string name="proceed">Autoriser</string>
     <string name="continue_">Continue</string>
-    <string name="get_otp">Get OTP</string>
-    <string name="wrong_number"><u>Wrong Number?</u></string>
-    <string name="app_permission_fully_setup">App permissions are fully set up</string>
+    <string name="get_otp">Recevoir le PIN</string>
+    <string name="wrong_number"><u>Numéro incorrect?</u></string>
+    <string name="app_permission_fully_setup">toutes les permissions ont été configurées</string>
     <string name="app_permission_fully_setup_desc">Please leave all settings on until the outbreak ends.</string>
 
-    <string name="send_otp">We\'ll text you a One-Time Pin (OTP)</string>
+    <string name="send_otp">Nous vous enverrons un code PIN unique</string>
 
-    <string name="title_home">Home</string>
-    <string name="title_upload">Upload</string>
-    <string name="title_help">Help</string>
+    <string name="title_home">Accueil</string>
+    <string name="title_upload">Télécharger</string>
+    <string name="title_help">Aide</string>
 
-    <string name="how_to_help">How you can help stop the spread of COVID-19</string>
-    <string name="help_action">Keep app open, and let it run in the background until the end of the outbreak</string>
+    <string name="how_to_help">Comment pouvez-vous aider à stopper le COVID-19?</string>
+
+    <string name="help_action">Gardez XexCOVID19 ouverte et laissez-la fonctionner en arrière-plan jusqu à la fin de l épidémie</string>
 
     <string name="app_permission_status">App Permissions Status</string>
     <string name="bluetooth_on">Bluetooth: On</string>
-    <string name="location_on">Location Permission: On</string>
-    <string name="battery_optimiser">Battery Optimisation: Off</string>
+    <string name="location_on">Position: On</string>
+    <string name="battery_optimiser">Optimisation de la batterie: Off</string>
     <string name="push_noti">Push Notification: On</string>
-    <string name="share_this_app">Share this app</string>
-    <string name="ask_friend">Ask friends and family to help</string>
-    <string name="help_us_identify">Help stop the virus spread by allowing all permissions</string>
+    <string name="share_this_app">Partagez XexCOVID19</string>
+    <string name="ask_friend">A vos proches</string>
+    <string name="help_us_identify">Aidez à stopper le virus en activant toutes les permissions</string>
     <string name="restart_app_setup">Complete app setup</string>
-    <string name="upload_data">Upload Data</string>
+    <string name="upload_data">Charger données</string>
     <string name="for_official_use">For use by contact tracers</string>
     <string name="data_uploaded">Data has been uploaded to contact tracers</string>
-    <string name="upload_agreement">By uploading, you agree to share with OTC your OpenTrace proximity data for the past 21 days. <b>We do not collect any geolocation or personal data.</b></string>
-    <string name="enter_code">Enter Code</string>
-    <string name="submit">Submit</string>
-    <string name="open_location_setting">Application needs location permission in order to work. Do you want to enable location permission?</string>
+    <string name="upload_agreement">En téléchargeant, vous acceptez de partager vos données de proximité pour les 21 derniers jours. <b>Nous ne collectons aucune donnée personnelle.</b></string>
+
+    <string name="enter_code">Entrer le Code</string>
+    <string name="submit">Soumettre</string>
+    <string name="open_location_setting">XexCOVID19 a besoin une autorisation de localisation pour fonctionner. Voulez-vous activer autorisation de localisation?</string>
     <string name="ok">OK</string>
-    <string name="cancel">Cancel</string>
+    <string name="cancel">Annuler</string>
     <string name="setup_incomplete">Setup is incomplete!</string>
     <string name="ack_title">Your consent is needed for the following:</string>
-    <string name="ack_mobile">To store your mobile number in a secured OpenTrace registry</string>
-    <string name="ack_data">To allow OpenTrace users to send OTC information of encounters with you, if they are confirmed or suspected to have COVID-19</string>
-    <string name="otp">Please enter the OTP sent to your mobile phone via sms</string>
+    <string name="ack_mobile">To store your mobile number in a secured XexCOVID19 registry</string>
+    <string name="ack_data">To allow XexCOVID19 users to send OTC information of encounters with you, if they are confirmed or suspected to have COVID-19</string>
+    <string name="otp">Entrer le code PIN que vous avez reçu par sms</string>
     <string name="keep_push_on">Keep push notifications on too, so we can alert you if the app is not scanning.</string>
     <string name="verification_failed">Verification failed. Please try again</string>
-    <string name="invalid_otp">Wrong OTP entered</string>
-    <string name="unknown_error">An error has occurred. Please try again</string>
+    <string name="invalid_otp">PIN incorrect</string>
+    <string name="unknown_error">Une erreur est survenue. Réessayez svp</string>
     <string name="must_be_six_digit">Must be a 6-digit number</string>
     <string name="invalid_user">Your account has been disabled. Please contact support.</string>
     <string name="too_many_requests">Too many requests. Please try again later.</string>
 
     <string name="privacy_safeguards"><u>privacy safeguards</u></string>
 
-    <string name="service_ok_title">OpenTrace is scanning to keep you safe! :)</string>
-    <string name="service_ok_body">Restart phone if this notification disappears</string>
+    <string name="service_ok_title">XexCOVID19 scanne pour vous protéger</string>
+    <string name="service_ok_body">Redémarrez le téléphone si cette notification disparaît</string>
 
-    <string name="service_not_ok_title">Oh no! :(</string>
-    <string name="service_not_ok_body">OpenTrace is not scanning.</string>
-    <string name="service_not_ok_action">Check app now</string>
+    <string name="service_not_ok_title">Oh non! :(</string>
+    <string name="service_not_ok_body">XexCOVID19 ne scanne pas.</string>
+    <string name="service_not_ok_action">Voir maintenant</string>
 
-    <string name="share_message">Join me in stopping the spread of COVID-19! Download OpenTrace. Go to: https://bluetrace.io</string>
+    <string name="share_message">rejoignez-nous à la lutte contre le COVID-19! Télécharge XexCOVID19. ICI: https://sante.gouv.sn</string>
 </resources>

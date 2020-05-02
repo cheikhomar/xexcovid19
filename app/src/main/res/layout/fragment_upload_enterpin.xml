@@ -49,13 +49,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="15sp"
-                android:text="STEP 2" />
+                android:text="ETAPE 2" />
 
             <androidx.appcompat.widget.AppCompatTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="Enter PIN to upload"
+                android:text="Entrer PIN pour télécharger"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
@@ -72,7 +72,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:text="Invalid PIN"
+                android:text="PIN invalide"
                 android:textColor="#C20000"
                 android:textSize="16sp"
                 android:visibility="invisible" />

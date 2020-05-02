@@ -37,7 +37,7 @@
                     android:paddingBottom="20dp"
                     android:visibility="visible">
 
-                    <androidx.appcompat.widget.AppCompatImageView
+                 <!--    <androidx.appcompat.widget.AppCompatImageView
                         android:id="@+id/animation_view"
                         android:layout_width="match_parent"
                         android:layout_height="250dp"
@@ -46,6 +46,16 @@
                         app:layout_constraintTop_toTopOf="parent"
                         app:srcCompat="@drawable/ic_opentrace_blue_transparent"
                       />
+                       -->
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/animation_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/primary_blue_1"
+                        android:text="Xex COVID19"
+                        android:textSize="50sp"
+                        android:textFontWeight="600"
+                        tools:ignore="MissingConstraints" />
 
                     <androidx.appcompat.widget.AppCompatTextView
                         android:id="@+id/tv_last_update"

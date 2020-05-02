@@ -12,7 +12,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toTopOf="@id/footer">
 
-        <ImageView
+        <!--
+                  <ImageView
             style="@style/OnboardingImage"
             android:id="@+id/on_boarding_banner"
             android:layout_width="wrap_content"
@@ -21,6 +22,7 @@
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+          -->
 
         <androidx.appcompat.widget.AppCompatTextView
             style="@style/OnboardingTitle"

@@ -32,6 +32,8 @@
             android:src="@drawable/ic_opentrace_blue_transparent"
             app:layout_constraintTop_toTopOf="@+id/center" />
 
+
+
         <View
             android:layout_weight="0.15"
             android:layout_width="0dp"

@@ -26,7 +26,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/white"
-                android:text="For use by OTC"
+                android:text="Pour utilisation par les autorités"
                 android:textSize="32sp"
                 android:textFontWeight="600" />
 
@@ -35,7 +35,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/white"
-                android:text="Upload data for contact tracing"
+                android:text="Téléchargez les données pour le suivi de vos contacts"
                 android:textSize="18sp"
                 android:textFontWeight="600" />
 
